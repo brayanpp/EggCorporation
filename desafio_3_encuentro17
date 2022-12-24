@@ -1,0 +1,66 @@
+Algoritmo desafio_3
+	menu()
+FinAlgoritmo
+SubProceso menu()
+	definir op Como Entero
+	definir salir como logica
+	salir = Falso
+	
+	mientras salir == falso Hacer
+		Escribir "## Menu Programa Calculadora"
+		Escribir " (1) Calcular muro de ladrillo ";
+		Escribir " (2) Calcular viga de hormigón ";
+		Escribir " (3) Calcular columnas de hormigón ";
+		Escribir " (4) Calcular contrapisos ";
+		Escribir " (5) Calcular techo ";
+		Escribir " (6) Calcular pisos ";
+		Escribir " (7) Calcular pintura";
+		Escribir " (8) Calcular iluminación ";
+		Escribir " (9) Salir ";
+		Leer op	
+		
+		Segun op Hacer
+			1:
+				calcularMuro()
+			9:
+				salir = Verdadero
+		FinSegun
+	FinMientras
+	
+FinSubProceso
+
+Subproceso calcularMuro()
+	Definir resp como caracter 
+	Definir largo, alto, area, cemento, arena, ladrillos Como Real
+
+	Escribir "Seleccione el espesor del muro"
+	Escribir "(a) 20cm"
+	Escribir "(b) 30 cm"
+	leer resp
+	Escribir "Ingrese el largo del muro (en metros)" 
+	leer largo
+	Escribir "Ingrese el alto del muro (en metros)"
+	Leer alto 
+	area = largo * alto 
+	Escribir "La superficie del muro es de " area 
+	
+	Segun resp hacer 
+		"a" : cemento = 10.9 * area
+			arena = 0.09 * area
+			ladrillos = 90 * area
+			Escribir "La cantidad de materiales que se necesitan son:"
+			Escribir "ladrillos: " ladrillos 
+			Escribir "cemento: "  cemento "kg."
+			Escribir "arena:" arena "m3."
+		"b" : cemento = 15.2 * area
+				arena = 0.115 * area
+				ladrillos = 120 * area
+				Escribir "La cantidad de materiales que se necesitan son:"
+				Escribir "ladrillos: " ladrillos 
+				Escribir "cemento: "  cemento "kg."
+				Escribir "arena:" arena "m3"
+		FinSegun
+
+FinSubProceso
+
+	
