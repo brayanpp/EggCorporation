@@ -11,6 +11,11 @@ Realizados durante los encuentros en clases sincronicas:
 
 
 *Creado por Brayan Padilla ☺
+<<<<<<< HEAD
+=======
+*Vamos por más!
+*Linkedin: Brayanpp
+>>>>>>> readme-mejorado
 
 Me encuentro realizando un curso de git y github profesional de platzi
 
