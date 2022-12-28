@@ -2,7 +2,7 @@
 
 > Algoritmos en pseint de EggCorporation
 
-Realizados durando los encuentros en clases sincronicas:
+Realizados durante los encuentros en clases sincronicas:
 ## Horario del curso
 * Lunes : 7pm - 10pm (Hora colombia)
 * Martes : 7pm - 10pm (Hora colombia)
