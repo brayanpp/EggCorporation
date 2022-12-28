@@ -9,5 +9,8 @@ Realizados durante los encuentros en clases sincronicas:
 * Miercoles : 7pm - 10pm (Hora colombia)
 * Jueves : 7pm - 10pm (Hora colombia) 
 
+
+*Creado por Brayan Padilla ☺
+
 Me encuentro realizando un curso de git y github profesional de platzi
 
