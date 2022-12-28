@@ -12,5 +12,7 @@ Realizados durante los encuentros en clases sincronicas:
 
 *Creado por Brayan Padilla ☺
 *Vamos por más!
+*Linkedin: Brayanpp
+
 Me encuentro realizando un curso de git y github profesional de platzi
 
